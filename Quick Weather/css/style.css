@@ -35,15 +35,6 @@ body {
   position: relative;
   background: #eee;
   background: linear-gradient(240deg, rgba(150, 50, 50, 0.3), rgba(0, 0, 200, 0));
-  transition: fadeIn 4s;
-}
-
-@keyframes fadeIn {
-  from {
-    filter: blur(10px);
-  } to {
-    filter: blur(0px);
-  }
 }
 
 nav ul {
