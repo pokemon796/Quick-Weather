@@ -199,15 +199,15 @@ function init()
 
 	onResize();
 
-	// 🖱 bind weather menu buttons ABILITY REMOVED FOR APP PURPOSES
+	// 🖱 bind weather menu buttons CLICKING ABILITY REMOVED FOR APP PURPOSES
 
-//    for(var i = 0; i < weather.length; i++)
-//    {
-//        var w = weather[i];
-//        var b = $('#button-' + w.type);
-//        w.button = b;
+   for(var i = 0; i < weather.length; i++)
+   {
+       var w = weather[i];
+       var b = $('#button-' + w.type);
+       w.button = b;
 //        b.bind('click', w, changeWeather);
-//    }
+   }
 
 	// ☁️ draw clouds
 
@@ -581,11 +581,11 @@ function tick()
 
 function reset()
 {
-// 	for(var i = 0; i < weather.length; i++)
-// 	{
-// 		container.removeClass(weather[i].type);
-// 		weather[i].button.removeClass('active');
-// 	}
+	for(var i = 0; i < weather.length; i++)
+	{
+		container.removeClass(weather[i].type);
+		weather[i].button.removeClass('active');
+	}
 }
 
 function updateSummaryText()
