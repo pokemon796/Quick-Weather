@@ -8,22 +8,47 @@
 
 import Cocoa
 import WebKit
+import CoreLocation
 
-class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate {
+class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate, CLLocationManagerDelegate {
+    
+    var locationManager: CLLocationManager = CLLocationManager()
+    
+    var lat = Double()
+    var lon = Double()
     
     @IBOutlet weak var mainView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        // https://rawcdn.githack.com/ozanmirza1/Quick-Weather/8b2d8ca2b159ab041facd200fdd5a4b018363697/Quick%20Weather/index.html
+        
+        self.locationManager = CLLocationManager()
+        self.locationManager.delegate = self
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        self.locationManager.distanceFilter = 5.0
+        self.locationManager.requestLocation() // Front use
+        self.locationManager.startUpdatingLocation()
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        lat = locations[0].coordinate.latitude
+        lon = locations[0].coordinate.longitude
         
         mainView.uiDelegate = self
         mainView.navigationDelegate = self
-        
-        let urlpath = Bundle.main.path(forResource: "index", ofType: "html");
-        let requesturl = URL(string: urlpath!)
-        let request = URLRequest(url: requesturl!)
-        mainView.load(request)
+        mainView.disAs
+        mainView.load(URLRequest(url: URL(string: "https://rawcdn.githack.com/ozanmirza1/Quick-Weather/8b2d8ca2b159ab041facd200fdd5a4b018363697/Quick%20Weather/index.html")!))
+        self.view.addSubview(mainView)
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        ("Error finding location: \(error.localizedDescription)")
+    }
+    
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        mainView.evaluateJavaScript("getWeatherData(\(lat), \(lon));", completionHandler: nil)
     }
 }
 

@@ -49,6 +49,7 @@
 		F715B97821FBE2580067DE82 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		F715B97A21FBE2600067DE82 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		F715B97C21FBE2650067DE82 /* style.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = style.scss; sourceTree = "<group>"; };
+		F715B97E21FC0F8C0067DE82 /* Quick Weather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Quick Weather.entitlements"; sourceTree = "<group>"; };
 		F73D033821F6950300F7EC18 /* Quick Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D033B21F6950300F7EC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F73D033F21F6950400F7EC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -158,6 +159,7 @@
 		F73D033A21F6950300F7EC18 /* Quick Weather */ = {
 			isa = PBXGroup;
 			children = (
+				F715B97E21FC0F8C0067DE82 /* Quick Weather.entitlements */,
 				F715B97321FBE1540067DE82 /* assets */,
 				F715B97021FBE1360067DE82 /* css */,
 				F715B96D21FBE1230067DE82 /* js */,
@@ -271,6 +273,11 @@
 				TargetAttributes = {
 					F73D033721F6950300F7EC18 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					F73D034921F6950400F7EC18 = {
 						CreatedOnToolsVersion = 10.1;
@@ -424,7 +431,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -442,7 +449,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_ENABLE_DEBUG_INFO = DWARF;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -497,7 +504,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = "DWARF with dSYM File";
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -509,7 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Quick Weather/Quick_Weather.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Quick Weather/Quick Weather.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = QXNMG5R4EQ;
@@ -518,7 +525,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Quick-Weather";
+				MTL_ENABLE_DEBUG_INFO = DWARF;
+				PRODUCT_BUNDLE_IDENTIFIER = "Quick Weather/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -528,7 +536,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Quick Weather/Quick_Weather.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Quick Weather/Quick Weather.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = QXNMG5R4EQ;
@@ -537,7 +545,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Quick-Weather";
+				MTL_ENABLE_DEBUG_INFO = "DWARF with dSYM File";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quick Weather/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

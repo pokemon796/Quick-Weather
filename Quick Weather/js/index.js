@@ -141,8 +141,8 @@ function getWeatherData(lat, lon) {
 			updateViews();
 		},
 		error: function (xhr, status, error) {
-	    alert("Result: " + status + " " + error + " " + xhr.status + " " + xhr.statusText)
-    }
+           alert("Result: " + status + " " + error + " " + xhr.status + " " + xhr.statusText)
+        }
 	})
 }
 
@@ -199,15 +199,15 @@ function init()
 
 	onResize();
 
-	// 🖱 bind weather menu buttons
+	// 🖱 bind weather menu buttons ABILITY REMOVED FOR APP PURPOSES
 
-	for(var i = 0; i < weather.length; i++)
-	{
-		var w = weather[i];
-		var b = $('#button-' + w.type);
-		w.button = b;
-		b.bind('click', w, changeWeather);
-	}
+//    for(var i = 0; i < weather.length; i++)
+//    {
+//        var w = weather[i];
+//        var b = $('#button-' + w.type);
+//        w.button = b;
+//        b.bind('click', w, changeWeather);
+//    }
 
 	// ☁️ draw clouds
 
