@@ -120,8 +120,6 @@ let data = {
 // Get User's Geographic coordinates for location
 
 navigator.geolocation.getCurrentPosition(function(position) {
-	console.log(position.coords.latitude);
-	console.log(position.coords.longitude);
 	getWeatherData(position.coords.latitude, position.coords.longitude);
 })
 
@@ -583,11 +581,11 @@ function tick()
 
 function reset()
 {
-	for(var i = 0; i < weather.length; i++)
-	{
-		container.removeClass(weather[i].type);
-		weather[i].button.removeClass('active');
-	}
+// 	for(var i = 0; i < weather.length; i++)
+// 	{
+// 		container.removeClass(weather[i].type);
+// 		weather[i].button.removeClass('active');
+// 	}
 }
 
 function updateSummaryText()
