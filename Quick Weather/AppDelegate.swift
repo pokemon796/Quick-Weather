@@ -13,6 +13,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
     let popUp = NSPopover()
+    var eventMonitor: EventMonitor?
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         if let button = statusItem.button {
@@ -20,6 +21,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.action = #selector(togglePopover(_:))
         }
         popUp.contentViewController = PopUpViewController.freshController()
+        
+        eventMonitor = EventMonitor(mask: [.leftMouseDown, .rightMouseDown]) { [weak self] event in
+            if let strongSelf = self, strongSelf.popUp.isShown {
+                strongSelf.closePopover(sender: event)
+            }
+        }
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -45,10 +52,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if let button = statusItem.button {
             popUp.show(relativeTo: button.bounds, of: button, preferredEdge: NSRectEdge.minY)
         }
+        
+        eventMonitor?.start()
     }
     
     func closePopover(sender: Any?) {
         popUp.performClose(sender)
+        
+        eventMonitor?.stop()
     }
 
 }

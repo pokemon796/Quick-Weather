@@ -23,6 +23,7 @@
 		F73D037621F6C08900F7EC18 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D037521F6C08900F7EC18 /* PopUpViewController.swift */; };
 		F73D037A21F7740900F7EC18 /* NSBezierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D037921F7740900F7EC18 /* NSBezierExtension.swift */; };
 		F73D037C21F9700E00F7EC18 /* NSViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D037B21F9700E00F7EC18 /* NSViewExtension.swift */; };
+		F780597921FE544600986620 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780597821FE544600986620 /* EventMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		F73D037521F6C08900F7EC18 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		F73D037921F7740900F7EC18 /* NSBezierExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBezierExtension.swift; sourceTree = "<group>"; };
 		F73D037B21F9700E00F7EC18 /* NSViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSViewExtension.swift; sourceTree = "<group>"; };
+		F780597821FE544600986620 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				F73D037121F6988D00F7EC18 /* VarelaRound-Regular.ttf */,
 				F73D037521F6C08900F7EC18 /* PopUpViewController.swift */,
 				F73D037D21F9701A00F7EC18 /* Extensions */,
+				F780597821FE544600986620 /* EventMonitor.swift */,
 			);
 			path = "Quick Weather";
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73D037A21F7740900F7EC18 /* NSBezierExtension.swift in Sources */,
+				F780597921FE544600986620 /* EventMonitor.swift in Sources */,
 				F73D037C21F9700E00F7EC18 /* NSViewExtension.swift in Sources */,
 				F73D037621F6C08900F7EC18 /* PopUpViewController.swift in Sources */,
 				F73D033C21F6950300F7EC18 /* AppDelegate.swift in Sources */,
@@ -526,7 +530,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = DWARF;
-				PRODUCT_BUNDLE_IDENTIFIER = "Quick Weather/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Quick-Weather-MAC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -546,7 +550,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = "DWARF with dSYM File";
-				PRODUCT_BUNDLE_IDENTIFIER = "Quick Weather/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Quick-Weather-MAC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

@@ -18,6 +18,7 @@ class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate,
     var lon = Double()
     
     @IBOutlet weak var mainView: WKWebView!
+    @IBOutlet weak var exitBtn: NSButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +40,6 @@ class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate,
         mainView.uiDelegate = self
         mainView.navigationDelegate = self
         mainView.load(URLRequest(url: URL(string: "https://rawcdn.githack.com/ozanmirza1/Quick-Weather/bebecca25a472bbcdb407b88b49a0276197c6f20/Quick%20Weather/index.html")!))
-        self.view.addSubview(mainView)
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
@@ -48,6 +48,9 @@ class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate,
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         mainView.evaluateJavaScript("getWeatherData(\(lat), \(lon));", completionHandler: nil)
+    }
+    @IBAction func quitApplication(_ sender: NSButton) {
+        NSApplication.shared.terminate(self)
     }
 }
 

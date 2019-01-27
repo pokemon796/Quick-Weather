@@ -697,17 +697,34 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="Q18-6z-R9R">
+                                <rect key="frame" x="20" y="20" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="N2W-eT-4Qn"/>
+                                    <constraint firstAttribute="height" constant="25" id="Umc-FC-4BU"/>
+                                </constraints>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="exit_icon" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="9Ot-dk-JPY">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="quitApplication:" target="XfG-lQ-9wD" id="abI-Mc-7rd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="Q18-6z-R9R" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="3ol-Jo-dHF"/>
                             <constraint firstAttribute="bottom" secondItem="eaN-Ld-Tbi" secondAttribute="bottom" id="GKS-zx-qDe"/>
                             <constraint firstItem="eaN-Ld-Tbi" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="K2t-Zq-DKU"/>
                             <constraint firstAttribute="trailing" secondItem="eaN-Ld-Tbi" secondAttribute="trailing" id="S1q-Nd-OZZ"/>
+                            <constraint firstAttribute="bottom" secondItem="Q18-6z-R9R" secondAttribute="bottom" constant="20" id="Tvf-Ci-28N"/>
                             <constraint firstItem="eaN-Ld-Tbi" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="XB5-G3-FaR"/>
                             <constraint firstItem="eaN-Ld-Tbi" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="inI-9C-NRX"/>
                             <constraint firstItem="eaN-Ld-Tbi" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="rZS-8F-NRs"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="exitBtn" destination="Q18-6z-R9R" id="833-6C-dzg"/>
                         <outlet property="mainView" destination="eaN-Ld-Tbi" id="aOx-1B-JoB"/>
                     </connections>
                 </viewController>
@@ -715,4 +732,7 @@
             <point key="canvasLocation" x="71.5" y="374"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="exit_icon" width="50" height="50"/>
+    </resources>
 </document>
