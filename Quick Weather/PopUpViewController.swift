@@ -22,7 +22,7 @@ class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate,
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-        // https://rawcdn.githack.com/ozanmirza1/Quick-Weather/23098560c27a7643721f7838f89a83d9a317ebb0/Quick%20Weather/index.html
+        // https://rawcdn.githack.com/ozanmirza1/Quick-Weather/bebecca25a472bbcdb407b88b49a0276197c6f20/Quick%20Weather/index.html
         
         self.locationManager = CLLocationManager()
         self.locationManager.delegate = self
@@ -38,7 +38,7 @@ class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate,
         
         mainView.uiDelegate = self
         mainView.navigationDelegate = self
-        mainView.load(URLRequest(url: URL(string: "https://rawcdn.githack.com/ozanmirza1/Quick-Weather/23098560c27a7643721f7838f89a83d9a317ebb0/Quick%20Weather/index.html")!))
+        mainView.load(URLRequest(url: URL(string: "https://rawcdn.githack.com/ozanmirza1/Quick-Weather/bebecca25a472bbcdb407b88b49a0276197c6f20/Quick%20Weather/index.html")!))
         self.view.addSubview(mainView)
     }
     

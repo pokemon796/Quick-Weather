@@ -1,0 +1,366 @@
+2019-01-27 03:11:29 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fa691d26660; archive(resolved)='<IDEArchive: 0x7fa6a6c89870>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDeveloperID: 0x7fa692fd2920>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa6aa00c280; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fa691d26660; archive = '<IDEArchive: 0x7fa6a6c89870>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa692fd2920>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa6aa00c280; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fa6afbd2230; archive = '<IDEArchive: 0x7fa6a6c89870>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa692fd2920>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa6aa00c280; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa6aede27a0; archive = '<IDEArchive: 0x7fa6a6c89870>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa692fd2920>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa6aa00c280; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa69166d0e0; archive = '<IDEArchive: 0x7fa6a6c89870>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa692fd2920>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa6aa00c280; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa692eeea00; archive = '<IDEArchive: 0x7fa6a6c89870>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa692fd2920>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa6aa00c280; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa6afc7b330; archive = '<IDEArchive: 0x7fa6a6c89870>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa692fd2920>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa6aa00c280; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa691b77850; archive = '<IDEArchive: 0x7fa6a6c89870>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa692fd2920>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa6aa00c280; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa6916aade0; archive = '<IDEArchive: 0x7fa6a6c89870>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa692fd2920>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa6aa00c280; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa6934632f0; archive = '<IDEArchive: 0x7fa6a6c89870>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa692fd2920>', team='(null)'>
+	<IDEDistributionContext: 0x7fa692eef670; archive = '<IDEArchive: 0x7fa6a6c89870>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fa692fd2920>', team='(null)'>
+	<IDEDistributionContext: 0x7fa6933758b0; archive = '<IDEArchive: 0x7fa6a6c89870>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fa691d26660>
+2019-01-27 03:11:29 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-01-27 03:11:29 +0000  Processing step: IDEDistributionCopyItemStep
+2019-01-27 03:11:30 +0000  Running /usr/bin/ditto '-V' '/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app'
+2019-01-27 03:11:30 +0000  >>> Copying /Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app 
+2019-01-27 03:11:30 +0000  
+2019-01-27 03:11:30 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2019-01-27 03:11:30 +0000  11892 bytes for ./Contents/_CodeSignature/CodeResources
+2019-01-27 03:11:30 +0000  copying file ./Contents/MacOS/Quick Weather ... 
+2019-01-27 03:11:30 +0000  60736 bytes for ./Contents/MacOS/Quick Weather
+2019-01-27 03:11:30 +0000  copying file ./Contents/Resources/index.html ... 
+2019-01-27 03:11:30 +0000  4714 bytes for ./Contents/Resources/index.html
+2019-01-27 03:11:30 +0000  copying file ./Contents/Resources/index.js ... 
+2019-01-27 03:11:30 +0000  19783 bytes for ./Contents/Resources/index.js
+2019-01-27 03:11:30 +0000  copying file ./Contents/Resources/AppIcon.icns ... 
+2019-01-27 03:11:30 +0000  99886 bytes for ./Contents/Resources/AppIcon.icns
+2019-01-27 03:11:30 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/PopUpViewController.nib ... 
+2019-01-27 03:11:30 +0000  1904 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/PopUpViewController.nib
+2019-01-27 03:11:30 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2019-01-27 03:11:30 +0000  36261 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib ... 
+2019-01-27 03:11:30 +0000  4482 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-01-27 03:11:30 +0000  295 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+2019-01-27 03:11:30 +0000  copying file ./Contents/Resources/loader.gif ... 
+2019-01-27 03:11:30 +0000  75110 bytes for ./Contents/Resources/loader.gif
+2019-01-27 03:11:30 +0000  copying file ./Contents/Resources/weathericons-regular-webfont.ttf ... 
+2019-01-27 03:11:30 +0000  99564 bytes for ./Contents/Resources/weathericons-regular-webfont.ttf
+2019-01-27 03:11:30 +0000  copying file ./Contents/Resources/Assets.car ... 
+2019-01-27 03:11:30 +0000  1034008 bytes for ./Contents/Resources/Assets.car
+copying file ./Contents/Resources/style.scss ... 
+2019-01-27 03:11:30 +0000  2855 bytes for ./Contents/Resources/style.scss
+2019-01-27 03:11:30 +0000  copying file ./Contents/Resources/style.css ... 
+2019-01-27 03:11:30 +0000  3317 bytes for ./Contents/Resources/style.css
+copying file ./Contents/Resources/VarelaRound-Regular.ttf ... 
+2019-01-27 03:11:30 +0000  121568 bytes for ./Contents/Resources/VarelaRound-Regular.ttf
+2019-01-27 03:11:30 +0000  copying file ./Contents/Frameworks/libswiftAppKit.dylib ... 
+2019-01-27 03:11:30 +0000  241232 bytes for ./Contents/Frameworks/libswiftAppKit.dylib
+copying file ./Contents/Frameworks/libswiftCoreImage.dylib ... 
+2019-01-27 03:11:30 +0000  49360 bytes for ./Contents/Frameworks/libswiftCoreImage.dylib
+copying file ./Contents/Frameworks/libswiftObjectiveC.dylib ... 
+2019-01-27 03:11:30 +0000  61008 bytes for ./Contents/Frameworks/libswiftObjectiveC.dylib
+2019-01-27 03:11:30 +0000  copying file ./Contents/Frameworks/libswiftXPC.dylib ... 
+2019-01-27 03:11:30 +0000  44944 bytes for ./Contents/Frameworks/libswiftXPC.dylib
+copying file ./Contents/Frameworks/libswiftCore.dylib ... 
+2019-01-27 03:11:30 +0000  6553216 bytes for ./Contents/Frameworks/libswiftCore.dylib
+copying file ./Contents/Frameworks/libswiftCoreGraphics.dylib ... 
+2019-01-27 03:11:30 +0000  202112 bytes for ./Contents/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Contents/Frameworks/libswiftMetal.dylib ... 
+2019-01-27 03:11:30 +0000  92400 bytes for ./Contents/Frameworks/libswiftMetal.dylib
+2019-01-27 03:11:30 +0000  copying file ./Contents/Frameworks/libswiftCoreData.dylib ... 
+2019-01-27 03:11:30 +0000  98400 bytes for ./Contents/Frameworks/libswiftCoreData.dylib
+copying file ./Contents/Frameworks/libswiftDispatch.dylib ... 
+2019-01-27 03:11:30 +0000  345920 bytes for ./Contents/Frameworks/libswiftDispatch.dylib
+copying file ./Contents/Frameworks/libswiftos.dylib ... 
+2019-01-27 03:11:30 +0000  74624 bytes for ./Contents/Frameworks/libswiftos.dylib
+2019-01-27 03:11:30 +0000  copying file ./Contents/Frameworks/libswiftCoreFoundation.dylib ... 
+2019-01-27 03:11:30 +0000  41120 bytes for ./Contents/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Contents/Frameworks/libswiftDarwin.dylib ... 
+2019-01-27 03:11:30 +0000  106432 bytes for ./Contents/Frameworks/libswiftDarwin.dylib
+copying file ./Contents/Frameworks/libswiftQuartzCore.dylib ... 
+2019-01-27 03:11:30 +0000  58368 bytes for ./Contents/Frameworks/libswiftQuartzCore.dylib
+2019-01-27 03:11:30 +0000  copying file ./Contents/Frameworks/libswiftIOKit.dylib ... 
+2019-01-27 03:11:30 +0000  45008 bytes for ./Contents/Frameworks/libswiftIOKit.dylib
+2019-01-27 03:11:30 +0000  copying file ./Contents/Frameworks/libswiftFoundation.dylib ... 
+2019-01-27 03:11:30 +0000  3065280 bytes for ./Contents/Frameworks/libswiftFoundation.dylib
+copying file ./Contents/Frameworks/libswiftCoreLocation.dylib ... 
+2019-01-27 03:11:30 +0000  53792 bytes for ./Contents/Frameworks/libswiftCoreLocation.dylib
+2019-01-27 03:11:30 +0000  copying file ./Contents/Info.plist ... 
+2019-01-27 03:11:30 +0000  2262 bytes for ./Contents/Info.plist
+copying file ./Contents/PkgInfo ... 
+2019-01-27 03:11:30 +0000  8 bytes for ./Contents/PkgInfo
+2019-01-27 03:11:30 +0000  /usr/bin/ditto exited with 0
+2019-01-27 03:11:30 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa6910e96c0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fa691b13410:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa69056dc10 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fa6b00384c0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa6a4ef31e0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fa6a4deb090:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa691070460 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fa6ad894110:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa692eabb90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fa6b03b5de0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa691ad5170 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fa691983f80:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa6affc8000 'com.apple.dt.runtime.swiftCoreLocation' '<DVTFilePath:0x7fa6935b8320:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreLocation.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa691aa3270 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fa6918b5370:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa692f44b00 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fa69189e310:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa6917bb5e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fa69348a730:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa691aac320 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fa6935624e0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa6b01ace40 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fa6a51f6a50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa692e5bc90 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fa6b0110670:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa6aebc2230 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fa691fb5010:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa6b01b5490 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fa692855d70:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa69111ef40 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fa690541c50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftos.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa692feca80 'Quick Weather/Info.plist' '<DVTFilePath:0x7fa6abda3080:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app'>'>
+2019-01-27 03:11:30 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-01-27 03:11:30 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-01-27 03:11:30 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-01-27 03:11:30 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-01-27 03:11:30 +0000  Processing step: IDEDistributionSymbolsStep
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-01-27 03:11:30 +0000  Processing step: IDEDistributionAppThinningStep
+2019-01-27 03:11:30 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-01-27 03:11:30 +0000  Processing step: IDEDistributionArchThinningStep
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftAppKit.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftAppKit.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftCore.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreData.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftCoreData.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftCoreFoundation.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftCoreGraphics.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftCoreImage.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreLocation.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftCoreLocation.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftDarwin.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftDispatch.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftFoundation.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftIOKit.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftIOKit.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftMetal.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftObjectiveC.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftQuartzCore.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftXPC.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftXPC.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "libswiftos.dylib" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/MacOS/Quick Weather' '-verify_arch' 'arm64e'
+2019-01-27 03:11:30 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-01-27 03:11:30 +0000  Skipping architecture thinning for item "Quick Weather" because arch "arm64e" wasn't found
+2019-01-27 03:11:30 +0000  Processing step: IDEDistributionODRStep
+2019-01-27 03:11:30 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa6910e96c0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fa691b13410:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa69056dc10 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fa6b00384c0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa6a4ef31e0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fa6a4deb090:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa691070460 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fa6ad894110:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa692eabb90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fa6b03b5de0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa691ad5170 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fa691983f80:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa6affc8000 'com.apple.dt.runtime.swiftCoreLocation' '<DVTFilePath:0x7fa6935b8320:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreLocation.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa691aa3270 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fa6918b5370:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa692f44b00 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fa69189e310:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa6917bb5e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fa69348a730:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa691aac320 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fa6935624e0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa6b01ace40 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fa6a51f6a50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa692e5bc90 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fa6b0110670:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa6aebc2230 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fa691fb5010:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa6b01b5490 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fa692855d70:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2019-01-27 03:11:30 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa69111ef40 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fa690541c50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftos.dylib'>'>
+2019-01-27 03:11:30 +0000  Running /usr/bin/xattr '-crs' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app'
+2019-01-27 03:11:30 +0000  /usr/bin/xattr exited with 0
+2019-01-27 03:11:30 +0000  Processing step: IDEDistributionCodesignStep
+2019-01-27 03:11:30 +0000  Entitlements for <IDEDistributionItem: 0x7fa6910e96c0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fa691b13410:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftAppKit.dylib'>'>: {
+}
+2019-01-27 03:11:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa6910e96c0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fa691b13410:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftAppKit.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsY2Y7zl
+2019-01-27 03:11:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsY2Y7zl' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftAppKit.dylib'
+2019-01-27 03:11:30 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftAppKit.dylib: replacing existing signature
+2019-01-27 03:11:31 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftAppKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftAppKit]
+2019-01-27 03:11:31 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:31 +0000  Entitlements for <IDEDistributionItem: 0x7fa69056dc10 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fa6b00384c0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCore.dylib'>'>: {
+}
+2019-01-27 03:11:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa69056dc10 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fa6b00384c0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCore.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsDhZjCN
+2019-01-27 03:11:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsDhZjCN' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCore.dylib'
+2019-01-27 03:11:31 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCore.dylib: replacing existing signature
+2019-01-27 03:11:31 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCore]
+2019-01-27 03:11:31 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:31 +0000  Entitlements for <IDEDistributionItem: 0x7fa6a4ef31e0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fa6a4deb090:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2019-01-27 03:11:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa6a4ef31e0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fa6a4deb090:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementseR5ipS
+2019-01-27 03:11:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementseR5ipS' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreData.dylib'
+2019-01-27 03:11:31 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2019-01-27 03:11:31 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreData.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreData]
+2019-01-27 03:11:31 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:31 +0000  Entitlements for <IDEDistributionItem: 0x7fa691070460 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fa6ad894110:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2019-01-27 03:11:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa691070460 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fa6ad894110:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementswQnVPl
+2019-01-27 03:11:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementswQnVPl' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreFoundation.dylib'
+2019-01-27 03:11:31 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2019-01-27 03:11:31 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-01-27 03:11:31 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:31 +0000  Entitlements for <IDEDistributionItem: 0x7fa692eabb90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fa6b03b5de0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2019-01-27 03:11:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa692eabb90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fa6b03b5de0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementso5Tzht
+2019-01-27 03:11:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementso5Tzht' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreGraphics.dylib'
+2019-01-27 03:11:31 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2019-01-27 03:11:31 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-01-27 03:11:31 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:31 +0000  Entitlements for <IDEDistributionItem: 0x7fa691ad5170 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fa691983f80:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2019-01-27 03:11:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa691ad5170 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fa691983f80:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsGmKYN6
+2019-01-27 03:11:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsGmKYN6' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreImage.dylib'
+2019-01-27 03:11:31 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2019-01-27 03:11:31 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreImage.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreImage]
+2019-01-27 03:11:31 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:31 +0000  Entitlements for <IDEDistributionItem: 0x7fa6affc8000 'com.apple.dt.runtime.swiftCoreLocation' '<DVTFilePath:0x7fa6935b8320:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreLocation.dylib'>'>: {
+}
+2019-01-27 03:11:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa6affc8000 'com.apple.dt.runtime.swiftCoreLocation' '<DVTFilePath:0x7fa6935b8320:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreLocation.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsVGhs4g
+2019-01-27 03:11:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsVGhs4g' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreLocation.dylib'
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreLocation.dylib: replacing existing signature
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftCoreLocation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreLocation]
+2019-01-27 03:11:32 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:32 +0000  Entitlements for <IDEDistributionItem: 0x7fa691aa3270 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fa6918b5370:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2019-01-27 03:11:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa691aa3270 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fa6918b5370:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsL8fV8Z
+2019-01-27 03:11:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsL8fV8Z' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftDarwin.dylib'
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftDarwin.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDarwin]
+2019-01-27 03:11:32 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:32 +0000  Entitlements for <IDEDistributionItem: 0x7fa692f44b00 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fa69189e310:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2019-01-27 03:11:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa692f44b00 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fa69189e310:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsSMYjVJ
+2019-01-27 03:11:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsSMYjVJ' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftDispatch.dylib'
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftDispatch.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDispatch]
+2019-01-27 03:11:32 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:32 +0000  Entitlements for <IDEDistributionItem: 0x7fa6917bb5e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fa69348a730:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2019-01-27 03:11:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa6917bb5e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fa69348a730:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsKh9Vpi
+2019-01-27 03:11:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsKh9Vpi' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftFoundation.dylib'
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftFoundation]
+2019-01-27 03:11:32 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:32 +0000  Entitlements for <IDEDistributionItem: 0x7fa691aac320 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fa6935624e0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftIOKit.dylib'>'>: {
+}
+2019-01-27 03:11:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa691aac320 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fa6935624e0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftIOKit.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementswvJnku
+2019-01-27 03:11:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementswvJnku' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftIOKit.dylib'
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftIOKit.dylib: replacing existing signature
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftIOKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftIOKit]
+2019-01-27 03:11:32 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:32 +0000  Entitlements for <IDEDistributionItem: 0x7fa6b01ace40 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fa6a51f6a50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2019-01-27 03:11:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa6b01ace40 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fa6a51f6a50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsysWKgt
+2019-01-27 03:11:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsysWKgt' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftMetal.dylib'
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftMetal.dylib: replacing existing signature
+2019-01-27 03:11:32 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftMetal.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftMetal]
+2019-01-27 03:11:32 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:32 +0000  Entitlements for <IDEDistributionItem: 0x7fa692e5bc90 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fa6b0110670:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2019-01-27 03:11:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa692e5bc90 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fa6b0110670:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsdBhzc1
+2019-01-27 03:11:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsdBhzc1' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftObjectiveC.dylib'
+2019-01-27 03:11:33 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2019-01-27 03:11:33 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftObjectiveC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-01-27 03:11:33 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:33 +0000  Entitlements for <IDEDistributionItem: 0x7fa6aebc2230 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fa691fb5010:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2019-01-27 03:11:33 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa6aebc2230 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fa691fb5010:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsHAqPUA
+2019-01-27 03:11:33 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsHAqPUA' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftQuartzCore.dylib'
+2019-01-27 03:11:33 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2019-01-27 03:11:33 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftQuartzCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftQuartzCore]
+2019-01-27 03:11:33 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:33 +0000  Entitlements for <IDEDistributionItem: 0x7fa6b01b5490 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fa692855d70:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftXPC.dylib'>'>: {
+}
+2019-01-27 03:11:33 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa6b01b5490 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fa692855d70:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftXPC.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsSMOTyN
+2019-01-27 03:11:33 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsSMOTyN' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftXPC.dylib'
+2019-01-27 03:11:33 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftXPC.dylib: replacing existing signature
+2019-01-27 03:11:33 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftXPC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftXPC]
+2019-01-27 03:11:33 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:33 +0000  Entitlements for <IDEDistributionItem: 0x7fa69111ef40 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fa690541c50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftos.dylib'>'>: {
+}
+2019-01-27 03:11:33 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa69111ef40 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fa690541c50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app/Contents/Frameworks/libswiftos.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsgJr9Fe
+2019-01-27 03:11:33 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsgJr9Fe' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftos.dylib'
+2019-01-27 03:11:33 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftos.dylib: replacing existing signature
+2019-01-27 03:11:33 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app/Contents/Frameworks/libswiftos.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftos]
+2019-01-27 03:11:33 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:33 +0000  Entitlements for <IDEDistributionItem: 0x7fa692feca80 'Quick Weather/Info.plist' '<DVTFilePath:0x7fa6abda3080:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.network.server" = 1;
+    "com.apple.security.personal-information.location" = 1;
+}
+2019-01-27 03:11:33 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa692feca80 'Quick Weather/Info.plist' '<DVTFilePath:0x7fa6abda3080:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-01-26/Quick Weather 1-26-19, 10.11 PM.xcarchive/Products/Applications/Quick Weather.app'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsuzo4LI
+2019-01-27 03:11:33 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '95E48E0337B7CEE63F2E380AD975152F1EE59812' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/entitlementsuzo4LI' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "QXNMG5R4EQ" ))' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app'
+2019-01-27 03:11:33 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app: replacing existing signature
+2019-01-27 03:11:33 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.VQ1/Root/Applications/Quick Weather.app: signed app bundle with Mach-O thin (x86_64) [Quick Weather/Info.plist]
+2019-01-27 03:11:33 +0000  /usr/bin/codesign exited with 0
+2019-01-27 03:11:33 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-01-27 03:11:33 +0000  Processing step: IDEDistributionSkipPackagingStep
+2019-01-27 03:11:33 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-01-27 03:11:33 +0000  Processing step: IDEDistributionCreateManifestStep
+2019-01-27 03:11:33 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
