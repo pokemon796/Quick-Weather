@@ -39,6 +39,7 @@ class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate,
         
         mainView.uiDelegate = self
         mainView.navigationDelegate = self
+        mainView.configuration.preferences.setValue(true, forKey: "developerExtrasEnabled")
         mainView.load(URLRequest(url: URL(string: "https://rawcdn.githack.com/ozanmirza1/Quick-Weather/bebecca25a472bbcdb407b88b49a0276197c6f20/Quick%20Weather/index.html")!))
     }
     

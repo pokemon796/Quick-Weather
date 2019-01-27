@@ -690,8 +690,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="503" height="572"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eaN-Ld-Tbi">
+                            <wkWebView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eaN-Ld-Tbi">
                                 <rect key="frame" x="0.0" y="0.0" width="503" height="572"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
@@ -714,13 +715,7 @@
                         </subviews>
                         <constraints>
                             <constraint firstItem="Q18-6z-R9R" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="3ol-Jo-dHF"/>
-                            <constraint firstAttribute="bottom" secondItem="eaN-Ld-Tbi" secondAttribute="bottom" id="GKS-zx-qDe"/>
-                            <constraint firstItem="eaN-Ld-Tbi" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="K2t-Zq-DKU"/>
-                            <constraint firstAttribute="trailing" secondItem="eaN-Ld-Tbi" secondAttribute="trailing" id="S1q-Nd-OZZ"/>
                             <constraint firstAttribute="bottom" secondItem="Q18-6z-R9R" secondAttribute="bottom" constant="20" id="Tvf-Ci-28N"/>
-                            <constraint firstItem="eaN-Ld-Tbi" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="XB5-G3-FaR"/>
-                            <constraint firstItem="eaN-Ld-Tbi" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="inI-9C-NRX"/>
-                            <constraint firstItem="eaN-Ld-Tbi" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="rZS-8F-NRs"/>
                         </constraints>
                     </view>
                     <connections>
