@@ -87,6 +87,9 @@ nav li a.active {
 #card .details .right {
   text-align: right;
 }
+#card .details .left {
+  text-align: left;
+}
 #card .details #date {
   margin: 4px 0;
 }
@@ -94,14 +97,32 @@ nav li a.active {
   font-weight: 600;
   font-size: 22px;
 }
+#card .details #range {
+  font-weight: 600;
+  font-size: 20px;
+}
 #card .details .temp {
   font-size: 60px;
   line-height: 60px;
 }
-#card .details .temp span {
+#card .details .left .temp span {
   font-size: 18px;
   line-height: 30px;
   vertical-align: top;
+  margin-left: 5px;
+}
+
+#card .details .left #range-max span {
+  font-size: 12.5px;
+  vertical-align: top;
+  line-height: 5px;
+  margin-left: 5px;
+}
+
+#card .details .left #range-min span {
+  font-size: 12.5px;
+  vertical-align: top;
+  line-height: 5px;
   margin-left: 5px;
 }
 

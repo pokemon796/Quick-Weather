@@ -147,7 +147,6 @@ function getWeatherData(lat, lon) {
 }
 
 function updateViews() {
-	document.getElementById('temp').innerHTML = Math.floor(data.temp) + "<span>F<span>";
 	if(data.icon === "01d") {
 		changeWeather(weather[4]);
 	} else if(data.icon === "01n") {
@@ -178,6 +177,12 @@ function updateViews() {
 		changeWeather(weather[1]);
 		container.addClass(weather[6].type);
 	}
+
+	document.getElementById('temp').innerHTML = Math.floor(data.temp) + "<span>F</span>";
+	document.getElementById('range-min').innerHTML = "Min: " + data.min + "<span>F</span>";
+	document.getElementById('range-max').innerHTML = "Max: " + data.max + "<span>F</span>";
+	document.getElementById('wind-speed').innerHTML += " " + data.wind_speed;
+
 	document.getElementById('loader').style = "display: none;";
 	document.getElementById('container').style = "filter: blur(0px);";
 }
