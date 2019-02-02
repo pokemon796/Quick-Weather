@@ -9,13 +9,16 @@
 import Cocoa
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDelegate {
     
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
     let popUp = NSPopover()
     var eventMonitor: EventMonitor?
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        
+        NSUserNotificationCenter.default.delegate = self
+        
         if let button = statusItem.button {
             button.image = NSImage(named:NSImage.Name("main_icon"))
             button.action = #selector(togglePopover(_:))
@@ -61,6 +64,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         eventMonitor?.stop()
     }
-
+    
+    func userNotificationCenter(_ center: NSUserNotificationCenter, shouldPresent notification: NSUserNotification) -> Bool {
+        return true
+    }
+    
+    func userNotificationCenter(_ center: NSUserNotificationCenter, didDeliver notification: NSUserNotification) {
+        PopUpViewController.freshController().activateNotifications(PopUpViewController.freshController().setter as? NSButton)
+    }
 }
-
