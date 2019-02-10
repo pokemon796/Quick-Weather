@@ -62,7 +62,6 @@
 		F73D033F21F6950400F7EC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F73D034221F6950400F7EC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F73D034421F6950400F7EC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F73D034521F6950400F7EC18 /* Quick_Weather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quick_Weather.entitlements; sourceTree = "<group>"; };
 		F73D034A21F6950400F7EC18 /* Quick WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D034E21F6950400F7EC18 /* Quick_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_WeatherTests.swift; sourceTree = "<group>"; };
 		F73D035021F6950400F7EC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		F73D037521F6C08900F7EC18 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		F73D037921F7740900F7EC18 /* NSBezierExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBezierExtension.swift; sourceTree = "<group>"; };
 		F73D037B21F9700E00F7EC18 /* NSViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSViewExtension.swift; sourceTree = "<group>"; };
+		F7639FBF2207BDDA00F96074 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		F780597821FE544600986620 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +106,7 @@
 		F715B96121FBDCE10067DE82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F7639FBF2207BDDA00F96074 /* NotificationCenter.framework */,
 				F715B96221FBDCE10067DE82 /* WebKit.framework */,
 			);
 			name = Frameworks;
@@ -167,7 +168,6 @@
 		F73D033A21F6950300F7EC18 /* Quick Weather */ = {
 			isa = PBXGroup;
 			children = (
-				F715B97E21FC0F8C0067DE82 /* Quick Weather.entitlements */,
 				F715B97321FBE1540067DE82 /* assets */,
 				F715B97021FBE1360067DE82 /* css */,
 				F715B96D21FBE1230067DE82 /* js */,
@@ -177,7 +177,7 @@
 				F73D033F21F6950400F7EC18 /* Assets.xcassets */,
 				F73D034121F6950400F7EC18 /* Main.storyboard */,
 				F73D034421F6950400F7EC18 /* Info.plist */,
-				F73D034521F6950400F7EC18 /* Quick_Weather.entitlements */,
+				F715B97E21FC0F8C0067DE82 /* Quick Weather.entitlements */,
 				F73D036F21F6985000F7EC18 /* weathericons-regular-webfont.ttf */,
 				F73D037121F6988D00F7EC18 /* VarelaRound-Regular.ttf */,
 				F73D037521F6C08900F7EC18 /* PopUpViewController.swift */,
@@ -286,6 +286,9 @@
 					F73D033721F6950300F7EC18 = {
 						CreatedOnToolsVersion = 10.1;
 						SystemCapabilities = {
+							com.apple.Maps.Mac = {
+								enabled = 0;
+							};
 							com.apple.Sandbox = {
 								enabled = 1;
 							};
@@ -465,7 +468,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = DWARF;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -520,7 +523,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = "DWARF with dSYM File";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -541,7 +544,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MTL_ENABLE_DEBUG_INFO = DWARF;
+				MTL_ENABLE_DEBUG_INFO = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Quick-Weather-MAC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -561,7 +564,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MTL_ENABLE_DEBUG_INFO = "DWARF with dSYM File";
+				MTL_ENABLE_DEBUG_INFO = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Quick-Weather-MAC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

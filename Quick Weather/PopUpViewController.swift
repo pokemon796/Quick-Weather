@@ -5,14 +5,12 @@
 //  Created by Ozan Mirza on 1/21/19.
 //  Copyright © 2019 Ozan Mirza. All rights reserved.
 //
-//  MAKE NOTIFICATIONS AVAILABLE
-//
 
 import Cocoa
 import WebKit
 import CoreLocation
 
-class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate, CLLocationManagerDelegate, NSSwitchDelegate, NSTextFieldDelegate {
+class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate, CLLocationManagerDelegate, NSTextFieldDelegate {
     
     var locationManager: CLLocationManager = CLLocationManager()
     
@@ -22,8 +20,6 @@ class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate,
     @IBOutlet weak var mainView: WKWebView!
     @IBOutlet weak var exitBtn: NSButton!
     @IBOutlet weak var main_icon: NSImageView!
-    @IBOutlet weak var notifyLbl: NSTextField!
-    @IBOutlet weak var main_switch: NSSwitch!
     @IBOutlet weak var refresBtn: NSButton!
     
     let setTimerBG = NSView()
@@ -36,9 +32,6 @@ class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate,
         super.viewDidLoad()
         // Do view setup here.
         // https://rawcdn.githack.com/ozanmirza1/Quick-Weather/bebecca25a472bbcdb407b88b49a0276197c6f20/Quick%20Weather/index.html
-        
-        self.main_switch.alphaValue = 0.0
-        self.main_switch.delegate = self
         
         self.locationManager = CLLocationManager()
         self.locationManager.delegate = self
@@ -67,7 +60,6 @@ class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate,
             self.mainView.load(URLRequest(url: URL(string: "https://rawcdn.githack.com/ozanmirza1/Quick-Weather/bebecca25a472bbcdb407b88b49a0276197c6f20/Quick%20Weather/index.html")!))
             NSAnimationContext.beginGrouping()
             NSAnimationContext.current.duration = 0.5
-            self.main_switch.animator().alphaValue = 1.0
             NSAnimationContext.endGrouping()
         }
     }
@@ -82,78 +74,6 @@ class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate,
     
     @IBAction func quitApplication(_ sender: NSButton) {
         NSApplication.shared.terminate(self)
-    }
-    
-    func switchChanged(switch: NSSwitch) {
-        if self.main_switch.on == true {
-            self.setTimerBG.frame = NSRect(x: (self.view.frame.size.width / 2) - 200, y: 0 - 400, width: 400, height: 400)
-            self.setTimerBG.wantsLayer = true
-            self.setTimerBG.layer?.cornerRadius = 20
-            self.setTimerBG.layer?.backgroundColor = NSColor(red: (181 / 255), green: (164 / 255), blue: (178 / 255), alpha: 1).cgColor
-            self.view.addSubview(self.setTimerBG)
-            NSAnimationContext.beginGrouping()
-            NSAnimationContext.current.duration = 1.0
-            self.setTimerBG.animator().setFrameOrigin(NSPoint(x: (self.view.frame.size.width / 2) - 200, y: (self.view.frame.size.height / 2) - 200))
-            NSAnimationContext.endGrouping()
-            let exit = NSButton(frame: NSRect(x: self.setTimerBG.frame.size.width - 55, y: self.setTimerBG.frame.size.height - 55, width: 25, height: 25))
-            exit.image = NSImage(named: "close_icon")
-            exit.wantsLayer = true
-            exit.layer?.backgroundColor = NSColor.clear.cgColor
-            exit.isBordered = false
-            exit.action = #selector(self.goToRemoveTimerSetter)
-            self.setTimerBG.addSubview(exit)
-            let timeSetterTTL = NSTextView(frame: NSRect(x: 0, y: self.setTimerBG.frame.size.height / 1.75, width: self.setTimerBG.frame.size.width, height: 100))
-            timeSetterTTL.textColor = NSColor.white
-            timeSetterTTL.string = "Please set the time for when you want the notifications, we update daily."
-            timeSetterTTL.textStorage?.font = NSFont.systemFont(ofSize: 25)
-            timeSetterTTL.alignment = NSTextAlignment.center
-            timeSetterTTL.drawsBackground = false
-            self.setTimerBG.addSubview(timeSetterTTL)
-            let middleColon = NSTextView(frame: NSRect(x: (self.setTimerBG.frame.size.height / 2) - 25, y: (self.setTimerBG.frame.size.height / 2) - 75, width: 50, height: 75))
-            middleColon.string = ":"
-            middleColon.textColor = NSColor.white
-            middleColon.textStorage?.font = NSFont.systemFont(ofSize: 60)
-            middleColon.drawsBackground = false
-            middleColon.isEditable = false
-            middleColon.alignment = NSTextAlignment.center
-            self.setTimerBG.addSubview(middleColon)
-            for i in 0..<self.timeFields.count {
-                
-                let widthSize : CGFloat = 75
-                let heightSize : CGFloat = 75
-                
-                let distance : CGFloat = 10
-                let startingPointX : CGFloat = ((self.setTimerBG.frame.size.width / 2) - (distance * 2.5)) - (widthSize * 2)
-                let startingPointY : CGFloat = ((self.setTimerBG.frame.size.height / 2) - (distance / 2)) - heightSize
-                
-                var x_pos : CGFloat = (startingPointX + (widthSize * CGFloat(i))) + (distance * CGFloat(i))
-                if i > 1 {
-                    x_pos += distance * 2
-                }
-                let y_pos : CGFloat = startingPointY
-                
-                let currentLbl = NSTextField(frame: NSRect(x: x_pos, y: y_pos, width: widthSize, height: heightSize))
-                currentLbl.isBezeled = false
-                currentLbl.isBordered = false
-                currentLbl.isHighlighted = false
-                currentLbl.wantsLayer = true
-                currentLbl.layer?.cornerRadius = 15
-                currentLbl.layer?.masksToBounds = true
-                currentLbl.delegate = self
-                currentLbl.layer?.backgroundColor = NSColor.white.cgColor
-                currentLbl.drawsBackground = false
-                currentLbl.textColor = NSColor(red: (66 / 255), green: (244 / 255), blue: (178 / 255), alpha: 1)
-                currentLbl.alignment = NSTextAlignment.center
-                currentLbl.font = NSFont.systemFont(ofSize: 50)
-                currentLbl.delegate = self
-                
-                self.setTimerBG.addSubview(currentLbl)
-                self.timeFields[i] = currentLbl
-            }
-        } else {
-            self.removeTimerSetter()
-            NSUserNotificationCenter.default.removeScheduledNotification(NSUserNotificationCenter.default.scheduledNotifications[0])
-        }
     }
     
     func controlTextDidChange(_ obj: Notification) {
@@ -248,11 +168,6 @@ class PopUpViewController: NSViewController, WKUIDelegate, WKNavigationDelegate,
         }
         
         NSUserNotificationCenter.default.scheduleNotification(notification)
-    }
-    
-    @objc func goToRemoveTimerSetter() {
-        self.removeTimerSetter()
-        self.main_switch.setOn(on: false, animated: true)
     }
     
     func removeTimerSetter() {

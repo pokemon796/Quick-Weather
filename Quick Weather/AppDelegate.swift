@@ -9,15 +9,13 @@
 import Cocoa
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate {
     
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
     let popUp = NSPopover()
     var eventMonitor: EventMonitor?
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        
-        NSUserNotificationCenter.default.delegate = self
         
         if let button = statusItem.button {
             button.image = NSImage(named:NSImage.Name("main_icon"))
@@ -70,6 +68,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDele
     }
     
     func userNotificationCenter(_ center: NSUserNotificationCenter, didDeliver notification: NSUserNotification) {
-        PopUpViewController.freshController().activateNotifications(PopUpViewController.freshController().setter as? NSButton)
+        PopUpViewController.freshController().activateNotifications(PopUpViewController.freshController().setter)
     }
 }

@@ -179,8 +179,8 @@ function updateViews() {
 	}
 
 	document.getElementById('temp').innerHTML = Math.floor(data.temp) + "<span>F</span>";
-	document.getElementById('range-min').innerHTML = "Min: " + data.min + "<span>F</span>";
-	document.getElementById('range-max').innerHTML = "Max: " + data.max + "<span>F</span>";
+	document.getElementById('range-min').innerHTML = "Low: " + data.min + "<span>F</span>";
+	document.getElementById('range-max').innerHTML = "High: " + data.max + "<span>F</span>";
 	document.getElementById('wind-speed').innerHTML += " " + data.wind_speed;
 
 	document.getElementById('loader').style = "display: none;";

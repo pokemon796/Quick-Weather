@@ -8,8 +8,7 @@
 
 import Cocoa
 
-extension NSBezierPath
-{
+extension NSBezierPath {
     
     var cgPath: CGPath {
         get {
