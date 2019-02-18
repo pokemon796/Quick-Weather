@@ -684,9 +684,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="503" height="572"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eaN-Ld-Tbi">
+                            <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eaN-Ld-Tbi">
                                 <rect key="frame" x="0.0" y="0.0" width="503" height="572"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="572" id="DQq-3I-VCD"/>
+                                    <constraint firstAttribute="width" constant="503" id="xyM-4k-o71"/>
+                                </constraints>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
@@ -729,17 +732,6 @@
                                     <action selector="refreshWeatherContent:" target="XfG-lQ-9wD" id="IKB-8g-Dk0"/>
                                 </connections>
                             </button>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8e3-TJ-Dhv">
-                                <rect key="frame" x="18" y="143" width="467" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="lWj-Jn-UAp"/>
-                                </constraints>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Finding Location..." id="ISs-DV-xh1">
-                                    <font key="font" metaFont="system" size="25"/>
-                                    <color key="textColor" red="0.25882352939999997" green="0.95686274510000002" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </textFieldCell>
-                            </textField>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="VDQ-a9-05N">
                                 <rect key="frame" x="458" y="527" width="25" height="25"/>
                                 <constraints>
@@ -800,18 +792,20 @@
                         <constraints>
                             <constraint firstItem="MBP-J0-7Wm" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="3jE-yQ-SH1"/>
                             <constraint firstItem="Q18-6z-R9R" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="3ol-Jo-dHF"/>
-                            <constraint firstAttribute="trailing" secondItem="8e3-TJ-Dhv" secondAttribute="trailing" constant="20" id="6bt-xF-NzS"/>
                             <constraint firstItem="MBP-J0-7Wm" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="CK2-W8-ciy"/>
                             <constraint firstItem="yxv-aZ-6Vb" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="DHU-0O-zdc"/>
+                            <constraint firstItem="eaN-Ld-Tbi" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="H4i-E8-AXg"/>
+                            <constraint firstItem="eaN-Ld-Tbi" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="L52-b7-Y9U"/>
                             <constraint firstAttribute="bottom" secondItem="EVD-wT-s8f" secondAttribute="bottom" constant="20" id="L9N-3E-2NI"/>
                             <constraint firstAttribute="trailing" secondItem="EVD-wT-s8f" secondAttribute="trailing" constant="20" id="N3V-KY-hoE"/>
-                            <constraint firstItem="8e3-TJ-Dhv" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="PWU-eq-U20"/>
                             <constraint firstAttribute="bottom" secondItem="Q18-6z-R9R" secondAttribute="bottom" constant="20" id="Tvf-Ci-28N"/>
-                            <constraint firstItem="8e3-TJ-Dhv" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="Z5a-Yq-yMM"/>
                             <constraint firstAttribute="trailing" secondItem="VDQ-a9-05N" secondAttribute="trailing" constant="20" id="b50-wd-3qW"/>
+                            <constraint firstItem="eaN-Ld-Tbi" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="hlR-cu-b47"/>
+                            <constraint firstAttribute="trailing" secondItem="eaN-Ld-Tbi" secondAttribute="trailing" id="pza-UF-cOq"/>
+                            <constraint firstItem="eaN-Ld-Tbi" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="qbw-HE-gWB"/>
                             <constraint firstItem="VDQ-a9-05N" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="tLd-UU-8GP"/>
                             <constraint firstItem="yxv-aZ-6Vb" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="vJc-rX-DeG"/>
-                            <constraint firstItem="8e3-TJ-Dhv" firstAttribute="top" secondItem="MBP-J0-7Wm" secondAttribute="bottom" constant="8" id="yAC-BG-wzU"/>
+                            <constraint firstAttribute="bottom" secondItem="eaN-Ld-Tbi" secondAttribute="bottom" id="wAM-U8-KEW"/>
                         </constraints>
                     </view>
                     <connections>
@@ -824,7 +818,6 @@
                         <outlet property="mainView" destination="eaN-Ld-Tbi" id="aOx-1B-JoB"/>
                         <outlet property="main_icon" destination="MBP-J0-7Wm" id="k4V-p3-TgH"/>
                         <outlet property="refresBtn" destination="yxv-aZ-6Vb" id="Y7W-1E-UJh"/>
-                        <outlet property="statusLbl" destination="8e3-TJ-Dhv" id="stN-rg-D2c"/>
                     </connections>
                 </viewController>
             </objects>

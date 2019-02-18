@@ -18,6 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         
         windowOpen = true
+        popUp.appearance = NSAppearance(named: NSAppearance.Name.vibrantDark)
         
         if let button = statusItem.button {
             button.image = NSImage(named:NSImage.Name("main_icon"))
